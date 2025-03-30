@@ -37,7 +37,7 @@
 		width="20px"
 		fill="currentColor"><path d="M444-444H240v-72h204v-204h72v204h204v72H516v204h-72v-204Z" /></svg
 	>
-	Save Draft
+	Elevated
 </Button>
 <Button variant="tonal" iconPosition="icon-left" style="margin-right: 10px">
 	<svg
@@ -47,7 +47,7 @@
 		width="20px"
 		fill="currentColor"><path d="M444-444H240v-72h204v-204h72v204h204v72H516v204h-72v-204Z" /></svg
 	>
-	Save Draft
+	Tonal
 </Button>
 <Button variant="text" iconPosition="icon-left" style="margin-right: 10px">
 	<svg
@@ -57,7 +57,7 @@
 		width="20px"
 		fill="currentColor"><path d="M444-444H240v-72h204v-204h72v204h204v72H516v204h-72v-204Z" /></svg
 	>
-	Save Draft
+	Text
 </Button>
 <Button variant="outlined" iconPosition="icon-left" style="margin-right: 10px">
 	<svg
@@ -67,7 +67,7 @@
 		width="20px"
 		fill="currentColor"><path d="M444-444H240v-72h204v-204h72v204h204v72H516v204h-72v-204Z" /></svg
 	>
-	Save Draft
+	Outlined
 </Button>
 <Button iconPosition="icon-left">
 	<svg
@@ -77,7 +77,7 @@
 		width="20px"
 		fill="currentColor"><path d="M444-444H240v-72h204v-204h72v204h204v72H516v204h-72v-204Z" /></svg
 	>
-	Submit
+	Filled
 </Button>
 
 <style>
