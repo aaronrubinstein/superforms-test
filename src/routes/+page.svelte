@@ -29,7 +29,7 @@
 	<Input name="Test" label="Label" value="" errors={undefined} />
 </section>
 
-<Button variant="elevated" iconPosition="icon-left" style="margin-right: 10px" disabled>
+<Button variant="elevated" iconPosition="icon-left" style="margin-right: 10px">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		height="20px"
@@ -39,7 +39,7 @@
 	>
 	Save Draft
 </Button>
-<Button variant="tonal" iconPosition="icon-left" style="margin-right: 10px" disabled>
+<Button variant="tonal" iconPosition="icon-left" style="margin-right: 10px">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		height="20px"
@@ -49,7 +49,7 @@
 	>
 	Save Draft
 </Button>
-<Button variant="text" iconPosition="icon-left" style="margin-right: 10px" disabled>
+<Button variant="text" iconPosition="icon-left" style="margin-right: 10px">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		height="20px"
@@ -59,7 +59,7 @@
 	>
 	Save Draft
 </Button>
-<Button variant="outlined" iconPosition="icon-left" style="margin-right: 10px" disabled>
+<Button variant="outlined" iconPosition="icon-left" style="margin-right: 10px">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		height="20px"
@@ -69,7 +69,7 @@
 	>
 	Save Draft
 </Button>
-<Button iconPosition="icon-left" disabled>
+<Button iconPosition="icon-left">
 	<svg
 		xmlns="http://www.w3.org/2000/svg"
 		height="20px"
@@ -90,9 +90,10 @@
 	}
 
 	.invoice-list {
-		display: flex;
-		flex-direction: column;
-		gap: 14px;
+		display: grid;
+		grid-template-columns: 2fr 2fr 1fr max-content;
+		row-gap: 14px;
+		column-gap: 20px;
 		margin-bottom: 36px;
 	}
 

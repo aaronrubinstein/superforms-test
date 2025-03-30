@@ -18,7 +18,7 @@ const invoices: Invoice[] = [
         client: 'Cyberdyne Systems',
 		description: 'Skynet Tech Support',
 		amount: 1000,
-		status: 'submitted'
+		status: 'draft'
 	}
 ];
 

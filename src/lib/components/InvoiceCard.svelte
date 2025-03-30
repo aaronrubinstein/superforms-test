@@ -29,10 +29,10 @@
 
 <style>
 	article {
-		height: 70px;
-		padding: 0 20px;
-		display: flex;
-		/* grid-template-columns: repeat(4, auto); */
+		padding: 12px 20px;
+		display: grid;
+		grid-template-columns: subgrid;
+		grid-column: span 4;
 		align-items: center;
 		border-radius: 12px;
 		box-shadow:
@@ -58,14 +58,6 @@
 		line-height: 24px;
 		letter-spacing: 0px;
 		color: hsla(0, 0%, 12%, 1);
-	}
-
-	.client {
-		width: 200px;
-	}
-
-	.description {
-		width: 250px;
 	}
 
 	.status {
